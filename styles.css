@@ -1,0 +1,55 @@
+/* Form container */
+form {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 6px solid #C00000; /* 🔴 only bottom border */
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Layout: label + input in one row */
+form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+form label {
+    width: 160px;
+    font-weight: bold;
+}
+
+/* Inputs (clean, no border) */
+form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc; /* light grey box */
+    outline: none;
+}
+
+/* Input focus */
+form input:focus {
+    border: 1px solid #800000;
+}
+
+/* Submit button */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover */
+form button:hover {
+    background-color: #a52a2a;
+}
