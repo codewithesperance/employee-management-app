@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>View Contacts</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -11,7 +12,89 @@
     <a href="view-contacts.html">View All Contacts</a>
 </nav>
 
-<h1>All Contacts</h1>
+<h2>All Contacts</h2>
+
+<table>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Department</th>
+        <th>Actions</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Esperance Mwanzo</td>
+        <td>esperancelove4@gmail.com</td>
+        <td>0794586392</td>
+        <td>Computer Science</td>
+        <td>
+            <button class="details-btn">Details</button>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn" onclick="confirmDelete()">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Jane Mwangi</td>
+        <td>janemwangi@gmail.com</td>
+        <td>0723456789</td>
+        <td>HR</td>
+        <td>
+            <button class="details-btn">Details</button>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn" onclick="confirmDelete()">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Brian Otieno</td>
+        <td>brianotieno@gmail.com</td>
+        <td>0734567890</td>
+        <td>Finance</td>
+        <td>
+            <button class="details-btn">Details</button>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn" onclick="confirmDelete()">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Faith Wanjiku</td>
+        <td>faithwanjiku@gmail.com</td>
+        <td>0745678901</td>
+        <td>Marketing</td>
+        <td>
+            <button class="details-btn">Details</button>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn" onclick="confirmDelete()">Delete</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>Kevin Kiptoo</td>
+        <td>kevinkiptoo@gmail.com</td>
+        <td>0756789012</td>
+        <td>Operations</td>
+        <td>
+            <button class="details-btn">Details</button>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn" onclick="confirmDelete()">Delete</button>
+        </td>
+    </tr>
+
+</table>
+
+<script src="main.js"></script>
+
+    
+                
 
 </body>
 </html>
