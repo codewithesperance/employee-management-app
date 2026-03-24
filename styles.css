@@ -53,3 +53,68 @@ form button {
 form button:hover {
     background-color: #a52a2a;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 4px solid #C00000; /* same as your form */
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* Details button */
+.details-btn {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* Edit button */
+.edit-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* Delete button */
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
